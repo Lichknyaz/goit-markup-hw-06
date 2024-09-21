@@ -3,6 +3,7 @@
 <html lang="en">
     <meta charset="UTF-8" />
     <meta name="WEBSTUDIO" content="WEBSTUDIO developers portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
@@ -38,6 +39,11 @@
             <li><a class="contact" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
+        <button class="menu-btn" type="button">
+          <svg class="icon header-menu" width="24" height="24">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 <!-- #endregion -->
@@ -48,7 +54,7 @@
       <section class="solutions section">
         <div class="container">
           <h1 class="solutions-header">Effective Solutions for Your Business</h1>
-          <button class="solutions-button" type="button" >Order Service</button>
+          <button class="solutions-button" type="button">Order Service</button>
         </div>
       </section>
 <!-- #endregion -->
@@ -121,7 +127,8 @@
   
           <ul class="team-list">
             <li class="team-photo">
-              <img src="./images/photo-1.jpg" alt="Mark Guerrero" width="264" />
+              <img srcset="./images/photo-1.jpg 1x, ./images/x2/photo-1@2.jpg 2x" 
+              src="./images/photo-1.jpg" alt="Mark Guerrero" width="264" />
               <div class="team-name">
                 <h3 class="team-third-header">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
@@ -156,7 +163,8 @@
             </li>
   
             <li class="team-photo">
-              <img src="./images/photo-2.jpg" alt="Tom Ford" width="264" />
+              <img srcset="./images/photo-2.jpg 1x, ./images/x2/photo-2@2.jpg 2x" 
+              src="./images/photo-2.jpg" alt="Tom Ford" width="264" />
               <div class="team-name">
                 <h3 class="team-third-header">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -191,7 +199,8 @@
             </li>
   
             <li class="team-photo">
-              <img src="./images/photo-3.jpg" alt="Camila Garcia" width="264" />
+              <img srcset="./images/photo-3.jpg 1x, ./images/x2/photo-3@2.jpg 2x" 
+              src="./images/photo-3.jpg" alt="Camila Garcia" width="264" />
               <div class="team-name">
                 <h3 class="team-third-header">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
@@ -226,7 +235,8 @@
             </li>
   
             <li class="team-photo">
-              <img src="./images/photo-4.jpg" alt="Daniel Wilson" width="264" />
+              <img srcset="./images/photo-4.jpg 1x, ./images/x2/photo-4@2.jpg 2x" 
+              src="./images/photo-4.jpg" alt="Daniel Wilson" width="264" />
               <div class="team-name">
                 <h3 class="team-third-header">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
@@ -272,7 +282,10 @@
         <ul class="portfolio-list">
           <li class="examples-list">
             <div class="examples-photo">
-              <img src="./images/banking.jpg" alt="Banking App" width="360">
+              <img 
+                srcset="./images/banking.jpg 1x, ./images/x2/banking@2.jpg 2x" 
+                src="./images/banking.jpg"
+                alt="Banking App" width="360">
               <p class="overlay">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -286,7 +299,10 @@
           
           <li class="examples-list">
             <div class="examples-photo">
-              <img src="./images/payment.jpg" alt="Cashless Payment" width="360">
+              <img  
+                srcset="./images/payment.jpg 1x, ./images/x2/payment@2.jpg 2x" 
+                src="./images/payment.jpg"
+                alt="Cashless Payment" width="360">
               <p class="overlay">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -300,7 +316,10 @@
   
           <li class="examples-list">
             <div class="examples-photo">
-              <img src="./images/meditation.jpg" alt="Meditation App" width="360">
+              <img  
+                srcset="./images/meditation.jpg 1x, ./images/x2/meditation@2.jpg 2x" 
+                src="./images/meditation.jpg"
+                alt="Meditation App" width="360">
               <p class="overlay">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -314,7 +333,10 @@
   
           <li class="examples-list">
             <div class="examples-photo">
-              <img src="./images/taxi.jpg" alt="Taxi Service" width="360">
+              <img  
+                srcset="./images/taxi.jpg 1x, ./images/x2/taxi@2.jpg 2x" 
+                src="./images/taxi.jpg"
+                alt="Taxi Service" width="360">
               <p class="overlay">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -328,7 +350,10 @@
   
           <li class="examples-list">
             <div class="examples-photo">
-              <img src="./images/screen.jpg" alt="Screen Illustrations" width="360">
+              <img  
+                srcset="./images/screen.jpg 1x, ./images/x2/screen@2.jpg 2x" 
+                src="./images/screen.jpg"
+                alt="Screen Illustrations" width="360">
               <p class="overlay">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -342,7 +367,10 @@
   
           <li class="examples-list">
             <div class="examples-photo">
-              <img src="./images/online.jpg" alt="Online Courses" width="360">
+              <img  
+                srcset="./images/online.jpg 1x, ./images/x2/online@2.jpg 2x" 
+                src="./images/online.jpg"
+                alt="Online Courses" width="360">
               <p class="overlay">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -415,9 +443,9 @@
 <!-- #endregion -->
 
 <!-- #region Modal window -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal-window">
-        <button class="close-btn" type="button"><svg class="icon close" width="8" height="8"><use href="./images/icons.svg#icon-close"></use>
+        <button class="close-btn" type="button"><svg class="icon close" width="8" height="8" data-modal-close><use href="./images/icons.svg#icon-close"></use>
                 </svg></button>
         <p class="form-header">Leave your contacts and we will call you back</p>
         <form class="order-form">
@@ -462,20 +490,74 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="privacy-link">Privacy Policy</a>
+              <div class="privacy-link-text">
+                I accept the terms and conditions of the
+                <a href="" class="privacy-link">Privacy Policy</a>
+              </div>
             </label>  
           </div>
          <button class="terms-button">Send</button>
         </form>
-
-
-        
+      </div>
+    </div>
+<!-- #endregion -->
+<!-- #region Header menu -->
+    <div class="mobile-menu-backdrop">
+      <div class="mobile-menu">
+        <button class="close-btn-menu" type="button">
+          <svg class="icon-close-menu" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg></button>
+          <nav class="nav menu">
+            <ul class="header-nav-list menu">
+              <li><a class="nav-anchor menu" href="./index.html">Studio</a></li>
+              <li><a class="nav-anchor menu" href="">Portfolio</a></li>
+              <li><a class="nav-anchor menu" href="">Contacts</a></li>
+            </ul>
+          </nav>
+    
+          <div class="bottom-menu-block">
+            <address class="all-contacts menu">
+              <ul class="header-contact menu">
+                <li><a class="contact menu" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li><a class="contact menu" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              </ul>
+            </address>
+            
+            <div class="social-media menu">
+              <ul class="icons-list menu">
+                <li class="media-icons menu">
+                  <a class="media-links menu" href="">
+                    <svg class="icon menu" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="media-icons menu">
+                  <a class="media-links menu" href="">
+                    <svg class="icon menu" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="media-icons menu">
+                  <a class="media-links menu" href="">
+                    <svg class="icon menu" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="media-icons menu">
+                  <a class="media-links menu" href="">
+                    <svg class="icon menu" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
       </div>
     </div>
 
-
 <!-- #endregion -->
+    <script src="./js/modal.js"></script>
   </body>
 <!-- #endregion -->
 </html>
