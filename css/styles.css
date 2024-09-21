@@ -655,8 +655,6 @@ button {
     column-gap: 24px;
     row-gap: 72px;
   }
-  .subscribe-container {
-  }
 }
 
 @media (min-width: 1158px) {
